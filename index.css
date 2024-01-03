@@ -81,6 +81,12 @@ select {
 /*------------RESET CSS--------------*/
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100%;
+    display: flex;
+ 
+    flex-direction: column;
+
+
 } 
 
 /*----------INICIO SERGIO------------*/
@@ -151,8 +157,60 @@ button {
     height: 60px;
     width: 700px;
 }
+.proyectosMasPopulares {
+    background-color: #ffffff;
+    color: #005FAC;
+    height: 60px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
 
-
+}
+main {
+    height: auto;
+    max-width: 60%;
+    width: 70%;
+    align-self: center;
+   
+}
+.contenedorFiltroTarjetas{
+    height: 100vh;
+    display: flex;
+    
+} 
+.filtrosDiv {
+    background-color: #E8E7E7;
+    width: 35%;
+    border-radius: 10px;
+    padding: 10px;
+}
+.tarjetasDiv {
+    width: auto;
+    height: 100%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-self: center;
+    overflow-y: scroll;
+  
+}
+.tarjeta {
+    
+    border: 3px solid #005FAC;
+    display: flex;
+    align-items: self-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 10px;
+    padding: 1%;
+    margin-bottom: 20px;
+    
+  
+}
 /*----------INICIO SERGIO------------*/
 
 
@@ -239,7 +297,7 @@ h3 {
 
 /* estilos para tarjetas */
 
-#tarjeta {
+/* .tarjeta {
     border: 3px solid #005FAC;
     display: flex;
     align-items: self-start;
@@ -248,7 +306,7 @@ h3 {
     width: 70%;
     border-radius: 10px;
     padding: 1%;
-}
+} */
 
 #tituloproyectos {
     width: 70%;
@@ -258,18 +316,7 @@ h3 {
 /* fin estilos tarjetas */
 
 /* ESTILOS PARA EL HEADER */
-header {
-    background-color: #005FAC;
-    color: rgb(255, 255, 255);
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-}
+
 
 #logo {
     margin-left: 1%;
