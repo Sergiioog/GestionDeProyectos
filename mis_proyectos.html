@@ -29,22 +29,20 @@
         </section>
     </header>
     <main>
-        <div class="proyectosMasPopulares">
+        <div id="errorNoRegistrado">
+            <p>¡UPS! Hemos detectado que no estas <a href="">REGISTRADO</a> o tal vez, no 
+            has <a href="">INICIADO SESIÓN</a></p>
+            <figure id="divFotoError">
+                <img src="assets/imagenes/error.png" alt="Foto de error">
+            </figure>
+        </div>
+
+
+
+        <div class="proyectosMasPopulares" style="display: none;">
             <h2>Proyectos más populares</h2>
         </div>
-        <div class="contenedorFiltroTarjetas">
-            <div class="filtrosDiv">
-                <h2>ORDENAR OFERTAS</h2>
-                <div class="filtrosOrden">
-                    <p>Fecha</p>
-                    <input type="date" id="nombre" name="nombre">
-                </div>
-                <div class="filtrosOrden">
-                    <p>Relevancia</p>
-                    <input type="date" id="relevancia" name="nombre">
-                </div>
-                
-            </div>
+        <div class="contenedorProyectos" style="display: none;">
             <div class="tarjetasDiv">
                 <div class="tarjeta">
                     <h3>Desarrollar Pagina web(Gestion de proyectos)</h3>

@@ -113,6 +113,20 @@ header {
     justify-content: center;
     align-items: center;
 }
+#busqueda {
+    height: 100%;
+    width: 80%;
+    padding-left: 20px;
+    font-size: 20px;
+    border: none;
+}
+#search {
+    background-color: #005FAC;
+    color: white;
+    height: 40px;
+    border-radius: 5px;
+
+}
 
 .figureFotoUtad {
     height: auto;
@@ -208,10 +222,33 @@ main {
     border-radius: 10px;
     padding: 1%;
     margin-bottom: 20px;
-    
-  
+}
+.filtrosOrden {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 10px;
+}
+.filtrosOrden input {
+    margin-left: 10px;
 }
 /*----------INICIO SERGIO------------*/
+/*----------MIS PROYECTOS SERGIO------------*/
+#errorNoRegistrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5vh;
+}
+#errorNoRegistrado figure {
+    margin-top: 5vh;
+}
+/*----------MIS PROYECTOS SERGIO------------*/
 
 
 /*----------USARIOS ALEX------------*/
