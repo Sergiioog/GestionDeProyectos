@@ -79,45 +79,244 @@ select {
 	}
 }
 /*------------RESET CSS--------------*/
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
 
-/*----------SECCION HEADER------------*/
+/*----------INICIO SERGIO------------*/
 
 header {
     height: 25vh;
     width: 100vw;
-
     background-color: #005FAC;
     color: white;
-
     display: flex;
     flex-direction: column;
 }
 .seccion1 {
-    height: auto;
+    height: 40%;
     width: 100%;
-
     display: flex;
-    justify-content: space-between;
-    align-items: start;
+    justify-content: center;
+    align-items: center;
 }
-.logoUtad {
+.seccion2 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.figureFotoUtad {
     height: auto;
     width: 10%;
-
-    background-color: white;
+    display: flex;
+    justify-content: start;
+    align-items: center;
 }
-.opcionesHeader {
-    height: 40%;
-    width: auto;
-
+.figureFotoUtad img {
+    max-width: 100%;
+    width: 60%;
+}
+.secciones {
+    height: 100%;
+    width: 90%;
     display: flex;
     justify-content: end;
+    align-items: center;
+
+
 }
-.opcionesHeader, button {
-    height: auto;
+.secciones li {
+    margin-right: 40px;
+    font-size: 18px;
 }
-.opcionesHeader li,button {
-    margin: 20px;
+.secciones li a {
+    text-decoration: none;
+    color: inherit;
+}
+button {
+    background-color: white;
+    border-radius: 10px;
+    height: 50px;
+    width: 120px;
+    border: none;
+    font-size: 16px;
+    color: #005FAC;
+    font-weight: 600;
+}
+.buscadorDiv {
+    background-color: white;
+    height: 60px;
+    width: 700px;
 }
 
-/*----------SECCION HEADER------------*/
+
+/*----------INICIO SERGIO------------*/
+
+
+/*----------USARIOS ALEX------------*/
+
+
+#bannerinicio {
+    width: 100%;
+    background-image: url('assets/imagenes/fondoUsuario.jpg');
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 400px;
+
+}
+
+#fotoperfil {
+
+    width: 100%;
+    max-width: 100px;
+    margin: 0 auto;
+}
+
+#fotoperfil img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+#contenedorPerfilfoto {
+
+    margin-top: 7%;
+    margin-left: 20%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#textoperfil {
+
+
+    margin-top: 7%;
+    margin-right: 20%;
+    background-color: aliceblue;
+    border-radius: 15px;
+
+
+}
+
+#nombreuser {
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+
+/* Estilos para el contenedor informacionpersonal  */
+
+#informacionpersonal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+h3 {
+    color: #005FAC;
+}
+
+/* fin estilos para contenedor informacionpersonal */
+
+/* Estilos para el contenedor de proyectos */
+
+#proyectossubidoscontenedor {
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+/* fin estilos proyectos */
+
+/* estilos para tarjetas */
+
+#tarjeta {
+    border: 3px solid #005FAC;
+    display: flex;
+    align-items: self-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+#tituloproyectos {
+    width: 70%;
+    align-items: flex-start;
+}
+
+/* fin estilos tarjetas */
+
+/* ESTILOS PARA EL HEADER */
+header {
+    background-color: #005FAC;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+#logo {
+    margin-left: 1%;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 10px 20px;
+}
+
+#menu {
+    display: flex;
+    margin-right: 3%;
+}
+
+#menu a {
+    display: block;
+}
+
+#botonhomeuser {
+
+    border-radius: 10px;
+    border: 0;
+}
+
+#homepalabra {
+    color: #005FAC;
+    font-weight: bold;
+}
+/* fin stylos header */ 
+
+#botonhomeuser2 {
+
+    background-color: #005FAC;
+    border-radius: 10px;
+    border: 0;
+}
+
+#homepalabra2 {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+/*----------USARIOS ALEX------------*/
