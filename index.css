@@ -79,61 +79,89 @@ select {
 	}
 }
 /*------------RESET CSS--------------*/
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
 
 /*----------INICIO SERGIO------------*/
 
 header {
     height: 25vh;
     width: 100vw;
-
     background-color: #005FAC;
     color: white;
-
     display: flex;
     flex-direction: column;
 }
 .seccion1 {
-    height: auto;
+    height: 40%;
     width: 100%;
-
     display: flex;
-    justify-content: space-between;
-    align-items: start;
+    justify-content: center;
+    align-items: center;
 }
-.logoUtad {
+.seccion2 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.figureFotoUtad {
     height: auto;
     width: 10%;
-
-    background-color: white;
+    display: flex;
+    justify-content: start;
+    align-items: center;
 }
-.opcionesHeader {
-    height: 40%;
-    width: auto;
-
+.figureFotoUtad img {
+    max-width: 100%;
+    width: 60%;
+}
+.secciones {
+    height: 100%;
+    width: 90%;
     display: flex;
     justify-content: end;
+    align-items: center;
+
+
 }
-.opcionesHeader, button {
-    height: auto;
+.secciones li {
+    margin-right: 40px;
+    font-size: 18px;
 }
-.opcionesHeader li,button {
-    margin: 20px;
+.secciones li a {
+    text-decoration: none;
+    color: inherit;
 }
+button {
+    background-color: white;
+    border-radius: 10px;
+    height: 50px;
+    width: 120px;
+    border: none;
+    font-size: 16px;
+    color: #005FAC;
+    font-weight: 600;
+}
+.buscadorDiv {
+    background-color: white;
+    height: 60px;
+    width: 700px;
+}
+
 
 /*----------INICIO SERGIO------------*/
 
 
 /*----------USARIOS ALEX------------*/
-body {
 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 0;
-    padding: 0;
-}
 
 #bannerinicio {
     width: 100%;
-    background-image: url('imgUsuario/code-944499_1920.jpg');
+    background-image: url('assets/imagenes/fondoUsuario.jpg');
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -180,7 +208,7 @@ body {
     border-radius: 15px;
 }
 
-/* Estilos para el contenedor informacionpersonal */
+/* Estilos para el contenedor informacionpersonal  */
 
 #informacionpersonal {
     display: flex;
@@ -276,7 +304,7 @@ nav a {
     color: #005FAC;
     font-weight: bold;
 }
-/* fin stylos header */
+/* fin stylos header */ 
 
 #botonhomeuser2 {
 
