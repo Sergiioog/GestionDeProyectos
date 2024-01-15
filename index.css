@@ -194,6 +194,9 @@ main {
     display: flex;
     
 } 
+#bodyuser{
+    overflow-x: hidden;
+}
 .filtrosDiv {
     background-color: #E8E7E7;
     width: 35%;
@@ -218,7 +221,7 @@ main {
     align-items: self-start;
     justify-content: center;
     flex-direction: column;
-    width: 100%;
+    width: 70%;
     border-radius: 10px;
     padding: 1%;
     margin-bottom: 20px;
@@ -279,7 +282,6 @@ main {
 
 #contenedorPerfilfoto {
 
-    margin-top: 7%;
     margin-left: 20%;
     display: flex;
     align-items: flex-start;
@@ -289,7 +291,6 @@ main {
 #textoperfil {
 
 
-    margin-top: 7%;
     margin-right: 20%;
     background-color: aliceblue;
     border-radius: 15px;
@@ -306,6 +307,7 @@ main {
 /* Estilos para el contenedor informacionpersonal  */
 
 #informacionpersonal {
+    margin-top: 3%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -326,7 +328,7 @@ h3 {
     font-size: 20px;
     flex-direction: column;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 3%;
     font-size: 18px;
 }
 
@@ -378,28 +380,37 @@ nav a {
     display: block;
 }
 
-#botonhomeuser {
+.botonhomeuser {
 
     border-radius: 10px;
     border: 0;
 }
 
-#homepalabra {
+.homepalabra {
+
     color: #005FAC;
     font-weight: bold;
 }
 /* fin stylos header */ 
 
-#botonhomeuser2 {
+.botonhomeuser2 {
 
     background-color: #005FAC;
     border-radius: 10px;
     border: 0;
 }
 
-#homepalabra2 {
+.homepalabra2 {
     color: #ffffff;
     font-weight: bold;
+}
+#contenedorbotonesinfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    gap: 2%;
 }
 
 
