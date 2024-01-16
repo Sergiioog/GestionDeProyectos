@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+    <h1 class="titilo">Desarrollo Usuario</h1>
+    <div id="contenedorcrearuser">
+        
+        <div id="crearuser">
+            <h1 class="titulocrearuser">Informacion Personal :  </h1>
+            <div class="circulo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-file-earmark-image" viewBox="0 0 16 16">
+                    <path d="M6.502 7a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+                    <path d="M14 14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5L14 4.5zM4 1a1 1 0 0 0-1 1v10l2.224-2.224a.5.5 0 0 1 .61-.075L8 11l2.157-3.02a.5.5 0 0 1 .76-.063L13 10V4.5h-2A1.5 1.5 0 0 1 9.5 3V1z"/>
+                  </svg>
+            </div>
+            <div>
+            <form id="formulariocrearuser" action="#" method="post" enctype="multipart/form-data">
+
+                <label for="nombre" class="label-formulario">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+              
+                <label for="apellidos" class="label-formulario">Apellidos:</label>
+                <input type="text" id="apellidos" name="apellidos" required>
+              
+                <label for="correo" class="label-formulario">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+              
+                <label for="estudios" class="label-formulario">Estudios:</label>
+                <input type="text" id="estudios" name="estudios" required>
+              
+                <label for="habilidades" class="label-formulario">Habilidades:</label>
+                <textarea id="habilidades" name="habilidades" rows="4" required></textarea>
+              
+                <label for="ubicacion" class="label-formulario">Ubicación:</label>
+                <input type="text" id="ubicacion" name="ubicacion" required>
+              
+                <label for="archivo" class="label-formulario">Cargar Archivo:</label>
+                <input type="file" id="archivo" name="archivo" accept=".pdf, .doc, .docx">
+
+                <button id="botonenviarform" type="submit">Enviar</button>
+              
+                
+              
+              </form>   
+             
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
