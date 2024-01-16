@@ -194,6 +194,9 @@ main {
     display: flex;
     
 } 
+#bodyuser{
+    overflow-x: hidden;
+}
 .filtrosDiv {
     background-color: #E8E7E7;
     width: 35%;
@@ -218,7 +221,7 @@ main {
     align-items: self-start;
     justify-content: center;
     flex-direction: column;
-    width: 100%;
+    width: 70%;
     border-radius: 10px;
     padding: 1%;
     margin-bottom: 20px;
@@ -279,7 +282,6 @@ main {
 
 #contenedorPerfilfoto {
 
-    margin-top: 7%;
     margin-left: 20%;
     display: flex;
     align-items: flex-start;
@@ -289,7 +291,6 @@ main {
 #textoperfil {
 
 
-    margin-top: 7%;
     margin-right: 20%;
     background-color: aliceblue;
     border-radius: 15px;
@@ -306,6 +307,7 @@ main {
 /* Estilos para el contenedor informacionpersonal  */
 
 #informacionpersonal {
+    margin-top: 3%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -326,7 +328,7 @@ h3 {
     font-size: 20px;
     flex-direction: column;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 3%;
     font-size: 18px;
 }
 
@@ -378,29 +380,155 @@ nav a {
     display: block;
 }
 
-#botonhomeuser {
+.botonhomeuser {
 
     border-radius: 10px;
     border: 0;
 }
 
-#homepalabra {
+.homepalabra {
+
     color: #005FAC;
     font-weight: bold;
 }
 /* fin stylos header */ 
 
-#botonhomeuser2 {
+.botonhomeuser2 {
 
     background-color: #005FAC;
     border-radius: 10px;
     border: 0;
 }
 
-#homepalabra2 {
+.homepalabra2 {
     color: #ffffff;
     font-weight: bold;
+}
+#contenedorbotonesinfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    gap: 2%;
 }
 
 
 /*----------USARIOS ALEX------------*/
+
+/*---------------- CREAR USUARIO ALEX ----------------*/
+
+#contenedorcrearuser {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#crearuser {
+    border-radius: 8px;
+    margin-top: 3%;
+   margin-bottom: 5%;
+    width: 45%;
+    height: 80%;
+    border: 2px solid #005FAC;
+    display: flex;
+    flex-direction: column;
+    
+    background-color: rgba(128, 128, 128, 0.147);
+}
+.titilo{
+    margin-top: 3%;
+    margin-left: 3%;
+    color: #005FAC;
+}
+
+.titulocrearuser{
+    color: #005FAC;
+    font-size: 1rem;
+    margin: 2%;
+    margin-left: 3%;
+}
+#contenedorusercrear{
+    width: 100%;
+
+}
+.circulo {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 2px solid #005FAC;
+    background-color: rgba(0, 0, 255, 0); /* Puedes ajustar el color de fondo según tus preferencias */
+    margin-left:10% ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+#formulariocrearuser{
+
+    text-align: center;
+  
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  input, textarea {
+    border:1px solid #005FAC;
+    border-radius: 8px;
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  .label-formulario {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+    margin-left: 10%;
+  }
+  #botonenviarform {
+    width: 30%; 
+    margin: 0 auto; 
+    display: block; 
+    padding: 5px; 
+    background-color: #005FAC;
+    color: #fff;
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+   
+  }
+  
+/* --------------- CREAR USUARIO ALEX ---------------- */
+/*  -------------- CONECTA CONMIGO USUARIO ALEX ---------*/
+#contenedorconetaruser{
+
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#conetaruser{
+    border-radius: 8px;
+    margin-top: 3%;
+   
+    width: 45%;
+    height: 80%;
+    border: 2px solid #005FAC;
+    display: flex;
+    flex-direction: column;
+    
+    background-color: rgba(128, 128, 128, 0.147);
+}
+#titulocontactaser{
+    color: #005FAC;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 8%;
+    
+}
+/* --------------- CONECTA CONMIGO USUARIO ALEX --------- */
