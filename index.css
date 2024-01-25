@@ -101,6 +101,15 @@ header {
     flex-direction: column;
 }
 
+.secciones a img {
+    max-width: 100%;
+    object-fit: cover;
+    max-height: 50px;
+    max-width: 50px;
+}
+.secciones a img:hover {
+    cursor: pointer;
+}
 .seccion1 {
     height: 40%;
     width: 100%;
@@ -152,6 +161,7 @@ header {
     align-items: end;
     justify-self: end;
     text-decoration: none;
+    font-weight: bold;
 
 }
 #botonCrearProyecto, .botonAzul a {
@@ -165,7 +175,6 @@ header {
     padding: 10px;
     border-radius: 5px;
     transition: background-color 0.5s ease; /* Agregado */
-
 
 }
 .botonAzul:hover, #btn:hover {
