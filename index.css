@@ -125,13 +125,26 @@ header {
     border: none;
 }
 
-#search {
+.botonAzul {
     background-color: #005FAC;
     color: white;
     height: 40px;
     border-radius: 5px;
+    transition: background-color 0.5s ease; /* Agregado */
 
 }
+#botonCrearProyecto {
+    height: fit-content;
+    transition: background-color 0.5s ease; /* Agregado */
+}
+
+.botonAzul:hover, #botonCrearProyecto:hover {
+    cursor: pointer;
+    background-color: #0c7bd7;
+}
+
+
+
 
 .figureFotoUtad {
     height: auto;
@@ -197,9 +210,14 @@ button {
 
 main {
     height: auto;
-    max-width: 60%;
-    width: 70%;
+    width: 80%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     align-self: center;
+    background-color: red;
 
 }
 
