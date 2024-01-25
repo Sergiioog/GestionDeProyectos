@@ -125,20 +125,50 @@ header {
     border: none;
 }
 
+#btnProyecto {
+    background-color: #005FAC;
+    width: fit-content;
+    height: 40px;
+    color: white;
+    height: fit-content;
+    border-radius: 5px;
+    transition: background-color 0.5s ease; /* Agregado */
+    margin-top: 30px;
+    margin-bottom: 5vh;
+    font-weight: bold;
+
+}
 .botonAzul {
     background-color: #005FAC;
     color: white;
-    height: 40px;
+    height: fit-content;
+    padding: 10px;
     border-radius: 5px;
     transition: background-color 0.5s ease; /* Agregado */
+    margin-top: 30px;
+    margin-bottom: 5vh;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    justify-self: end;
+    text-decoration: none;
 
 }
-#botonCrearProyecto {
+#botonCrearProyecto, .botonAzul a {
     height: fit-content;
     transition: background-color 0.5s ease; /* Agregado */
 }
+#btn {
+    background-color: #005FAC;
+    color: white;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.5s ease; /* Agregado */
 
-.botonAzul:hover, #botonCrearProyecto:hover {
+
+}
+.botonAzul:hover, #btn:hover {
     cursor: pointer;
     background-color: #0c7bd7;
 }
@@ -179,7 +209,7 @@ header {
     color: inherit;
 }
 
-button {
+button{
     background-color: white;
     border-radius: 10px;
     height: 50px;
@@ -196,17 +226,6 @@ button {
     width: 700px;
 }
 
-.proyectosMasPopulares {
-    background-color: #ffffff;
-    color: #005FAC;
-    height: 60px;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    margin-top: 15px;
-    margin-bottom: 15px;
-
-}
 
 main {
     height: auto;
@@ -217,15 +236,10 @@ main {
     align-items: center;
     flex-direction: column;
     align-self: center;
-    background-color: red;
 
 }
 
-.contenedorFiltroTarjetas {
-    height: 100vh;
-    display: flex;
 
-}
 
 #bodyuser {
     overflow-x: hidden;
@@ -239,15 +253,15 @@ main {
 }
 
 .tarjetasDiv {
+    margin-top: 2vh;
+    max-width: 60vw;
+    height: auto;
     width: auto;
-    height: 100%;
-    margin-left: 5%;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
-    justify-self: center;
     overflow-y: scroll;
-
 }
 
 .tarjeta {
@@ -257,10 +271,18 @@ main {
     align-items: self-start;
     justify-content: center;
     flex-direction: column;
-    width: 70%;
+    width: 100%;
     border-radius: 10px;
     padding: 1%;
     margin-bottom: 20px;
+}
+#divCrear {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+
 }
 
 .filtrosOrden {

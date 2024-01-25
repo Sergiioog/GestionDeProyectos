@@ -24,15 +24,12 @@
         <section class="seccion2">
             <form class="buscadorDiv">
                 <input id="busqueda" type="search" placeholder="Buscar proyectos U-TAD" aria-label="Search">
-                <button class="btn btn-outline-success botonAzul" type="submit">Search</button>
+                <button class="btn btn-outline-success" id="btn" type="submit">Search</button>
             </form>
         </section>
 
     </header>
     <main>
-        <div class="proyectosMasPopulares">
-            <h2>Proyectos más populares</h2>
-        </div>
         <div class="contenedorFiltroTarjetas">
             
             <div class="tarjetasDiv">
@@ -77,8 +74,11 @@
                     <a href="">Mas Informacion</a>
                 </div>  
             </div>
-            <button  class="btn btn-outline-success botonAzul" id="botonCrearProyecto" type="submit">Crear proyecto</button>
-
+            <div id="divCrear">
+                <a href="publicarProy.html"  class="btn btn-outline-success botonAzul">Crear proyecto</a>
+            </div>
+    
+            
         </div>
         
     </main>
