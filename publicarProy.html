@@ -4,28 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>asas</title>
+    <title>Publicar Proyectos</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="publicarProyectos.css">
 
 </head>
 
 <body>
     <header>
-        <h1>U-TAD</h1>
-
-        <div class="cabecera">
-            <ul>
-                <li>Home</li>
-                <li>Mis Proyectos</li>
+        <section class="seccion1">
+            <figure class="figureFotoUtad">
+                <img src="assets/imagenes/logoU.png" alt="logo Utad">
+            </figure>
+            <ul class="secciones">
+                <li><a href="mis_proyectosreg.html">Mis Proyectos</a></li>
                 <li>Guardado</li>
                 <li>Chat</li>
-
+                <li><a href="usuario.html">Usuario</a></li>
+                <li><button onclick="">Registro</button></li>
             </ul>
-        </div>
-
-        <button class="btnUsuario">Usuario</button>
-
+        </section>
     </header>
 
     <div class="page">
@@ -38,7 +37,7 @@
         <div class="card">
 
             <input type="text" placeholder="Nombre proyecto...">
-            <div class="datos">
+            <div class="datosUsuario">
 
                 <p>U-tad (Edificio Madrid) - <span>Sergio Gacia Gordo</span></p>
                 <p>Presencial/Remoto - <span>4 inscritos</span></p>
@@ -49,14 +48,22 @@
             <div class="requisitos">
                 
                 <div class="col1">
-                    <label for="estudios">Estudios:</label>
-                    <input type="text" name="estudios"><br>
-                    <label for="cursos">Curso recomendado:</label>
-                    <input type="text" name="cursos"><br>
-                    <label for="idiomas">Idiomas:</label>
-                    <input type="text" name="idiomas"><br>
-                    <label for="certificaciones">Certificaciones:</label>
-                    <input type="text" name="certificaciones">
+                    <div class="requisitosParticipante">
+                        <label for="estudios">Estudios:</label>
+                        <input type="text" name="estudios">
+                    </div><br>
+                    <div class="requisitosParticipante">
+                        <label for="cursos">Curso recomendado:</label>
+                        <input type="text" name="cursos">
+                    </div><br>
+                    <div class="requisitosParticipante">
+                        <label for="idiomas">Idiomas:</label>
+                        <input type="text" name="idiomas">
+                    </div><br>
+                    <div class="requisitosParticipante">
+                        <label for="certificaciones">Certificaciones:</label>
+                        <input type="text" name="certificaciones">
+                    </div>
                 </div>
 
                 <div class="col2">
@@ -79,7 +86,7 @@
                 </div>
                 <hr class="vertical-line">
                 <div>
-                    <p>Maquetador web::</p>
+                    <p>Maquetador web:</p>
                     <input type="text">
                 </div>
                 <hr class="vertical-line">

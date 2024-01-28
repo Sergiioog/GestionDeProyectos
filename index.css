@@ -927,6 +927,7 @@ button {
 .datos {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     border: 1px solid black;
     border-radius: 5px;
     padding: 10px;
@@ -964,7 +965,7 @@ h3 {
     padding: 20px;
 }
 
-.datos {
+.datosAceptados {
     display: flex;
     width: 95%;
     align-items: center;
@@ -996,11 +997,16 @@ h3 {
 
 
 /*--------------Publicar Proyecto Gonzalo------------------*/
-p {
+
+ p{
     font-weight: bold;
 }
 
-hr {
+
+.vertical-line {
+
+    border-left: 1px solid #000;
+    height: 60px;
     display: block;
     unicode-bidi: isolate;
     margin-block-start: 0.5em;
@@ -1016,20 +1022,19 @@ hr {
 
     border-left: 1px solid #000;
     height: 60px;
-    margin: 10px;
 
 }
 
-.btnUsuario {
-    border-radius: 5px;
-    border: 1px solid white;
+.btnUsuario{
+    border-radius:5px;
+    border:1px solid white;
 }
 
 .btnpublicar {
     width: 20%;
-    background-color: #005FAC;
+    background-color:#005FAC;
     color: #F6F6F6;
-    border: 1px solid black;
+    border:1px solid black;
     border-radius: 5px;
 }
 
@@ -1085,24 +1090,30 @@ li {
     padding: 20px;
 }
 
-.datos {
+.datosUsuario {
     margin-bottom: 10px;
 }
 
 .requisitos {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-between;
     margin-top: 20px;
     margin-bottom: 20px;
 
 }
 
-label {
+.requisitosParticipante{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.requisitosParticipante label {
     font-weight: bold;
 }
 
-input {
+.requisitosParticipante input {
     margin-bottom: 10px;
     border-radius: 10px;
     border: 1px solid black;
@@ -1131,6 +1142,11 @@ input {
     margin-bottom: 10px;
 }
 
+.descripcion textarea{
+    max-width: 800px;
+    max-height: 200px;
+}
+
 .funciones {
     display: flex;
     justify-content: space-evenly;
@@ -1138,7 +1154,7 @@ input {
     margin: 20px;
 }
 
-.publicar {
+.publicar{
     display: flex;
     justify-content: center;
     align-items: center;
