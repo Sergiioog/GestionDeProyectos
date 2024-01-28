@@ -721,7 +721,7 @@ h3 {
 
 /*--------------Publicar Proyecto Gonzalo------------------*/
 
-p{
+ p{
     font-weight: bold;
 }
 
@@ -736,6 +736,8 @@ hr {
     border-style: inset;
     border-width: 1px;
 }
+
+
 
 .vertical-line {
 
