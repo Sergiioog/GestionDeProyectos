@@ -101,6 +101,15 @@ header {
     flex-direction: column;
 }
 
+.secciones a img {
+    max-width: 100%;
+    object-fit: cover;
+    max-height: 50px;
+    max-width: 50px;
+}
+.secciones a img:hover {
+    cursor: pointer;
+}
 .seccion1 {
     height: 40%;
     width: 100%;
@@ -125,13 +134,56 @@ header {
     border: none;
 }
 
-#search {
+#btnProyecto {
     background-color: #005FAC;
-    color: white;
+    width: fit-content;
     height: 40px;
+    color: white;
+    height: fit-content;
     border-radius: 5px;
+    transition: background-color 0.5s ease; /* Agregado */
+    margin-top: 30px;
+    margin-bottom: 5vh;
+    font-weight: bold;
 
 }
+.botonAzul {
+    background-color: #005FAC;
+    color: white;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.5s ease; /* Agregado */
+    margin-top: 30px;
+    margin-bottom: 5vh;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    justify-self: end;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+#botonCrearProyecto, .botonAzul a {
+    height: fit-content;
+    transition: background-color 0.5s ease; /* Agregado */
+}
+#btn {
+    background-color: #005FAC;
+    color: white;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.5s ease; /* Agregado */
+
+}
+.botonAzul:hover, #btn:hover {
+    cursor: pointer;
+    background-color: #0c7bd7;
+}
+
+
+
 
 .figureFotoUtad {
     height: auto;
@@ -166,7 +218,7 @@ header {
     color: inherit;
 }
 
-button {
+button{
     background-color: white;
     border-radius: 10px;
     height: 50px;
@@ -183,31 +235,20 @@ button {
     width: 700px;
 }
 
-.proyectosMasPopulares {
-    background-color: #ffffff;
-    color: #005FAC;
-    height: 60px;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    margin-top: 15px;
-    margin-bottom: 15px;
-
-}
 
 main {
     height: auto;
-    max-width: 60%;
-    width: 70%;
+    width: 80%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     align-self: center;
 
 }
 
-.contenedorFiltroTarjetas {
-    height: 100vh;
-    display: flex;
 
-}
 
 #bodyuser {
     overflow-x: hidden;
@@ -221,15 +262,15 @@ main {
 }
 
 .tarjetasDiv {
+    margin-top: 2vh;
+    max-width: 60vw;
+    height: auto;
     width: auto;
-    height: 100%;
-    margin-left: 5%;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
-    justify-self: center;
     overflow-y: scroll;
-
 }
 
 .tarjeta {
@@ -239,10 +280,18 @@ main {
     align-items: self-start;
     justify-content: center;
     flex-direction: column;
-    width: 70%;
+    width: 100%;
     border-radius: 10px;
     padding: 1%;
     margin-bottom: 20px;
+}
+#divCrear {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+
 }
 
 .filtrosOrden {
@@ -275,6 +324,233 @@ main {
 }
 
 /*----------MIS PROYECTOS SERGIO------------*/
+/*----------VER PROYECTOS SERGIO------------*/
+#verProyectoForm {
+    background-color: #EEEEEE;
+    width: 850px;
+    max-width: 900px;
+    height: auto;
+    margin-top: 5vh;
+    border: 3px solid #005FAC;
+    border-radius: 10px;
+    padding: 20px;
+}
+#divForm1 {
+    width: 100%;
+    height: auto;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+#divForm1 h1 {
+    color: #005FAC;
+}
+#divForm2 h2 {
+    color: #005FAC;
+    font-size: 18px;
+}
+#datosForm1 {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#datosForm2 {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#botonCerrar {
+    color: #000;
+    font-size: 40px;
+    background-color: transparent;
+    height: auto;
+    width: auto;
+    margin-left: 60px;
+}
+#botonCerrar:hover {
+    cursor: pointer;
+}
+.datosForm2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-top: 10px;
+    
+    
+}
+#divForm2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.divLista {
+    font-size: 15px;
+    height: 100%;
+    margin-top: 10px;
+}
+.divLista li {
+    padding: 4px;
+    margin-right: 15px;
+    font-weight: bold;
+}
+.divReqCon {
+    min-height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    
+}
+.btnLenguaje {
+    background-color: white;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 10px;
+    width: auto;
+    min-width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(47, 173, 246);
+    text-decoration: none;
+}
+.btnLenguaje p {
+    color: #005FAC;
+
+}
+.divListaLeng {
+    width: auto;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    max-width: 80%;
+    margin-top: 10px;
+
+}
+#descripcion h2 {
+    color: #005FAC;
+    font-size: 18px;
+}
+#descripcion p {
+    font-weight: normal;
+    margin-top: 10px;
+    text-align: justify;
+    letter-spacing: -1px;
+}
+#funciones h2 {
+    color: #005FAC;
+    font-size: 18px;
+
+}
+#funciones {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.funcion {
+    padding: 10px;
+    width: 260px;
+    height: 100%;
+    background-color: rgb(212, 212, 212);
+    border: 2px solid #0c7bd7;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.funcion ul {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.funcionesInscritos {
+    height: auto;
+    width: 100%;
+}
+#func {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#funciones h3 {
+    font-size: 18px;
+}
+.funcion li {
+    margin-top: 5px;
+    list-style: circle;
+    margin-left: 30px;
+    text-align: justify;
+    
+}
+#inscribirme {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+#linkGuardar {
+    height: 50px;
+    width: 50px;
+}
+#linkGuardar  img {
+    max-width: 100%;
+}
+.funcionEnProyecto h2 {
+    margin-top: 30px;
+    color: #005FAC;
+    font-size: 18px;
+}
+.funcionEnProyecto {
+    width: 100%;
+    height: auto;
+}
+#participacion {
+    width: 30%;
+    padding-right: 40px;
+}
+#participacion ul {
+    width:200px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}
+#participacion ul li {
+    width:100%;
+    text-align: center;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    
+}
+
+/*----------VER PROYECTOS SERGIO------------*/
 
 
 /*----------USARIOS ALEX------------*/
@@ -287,8 +563,8 @@ main {
     align-items: center;
     justify-content: space-between;
     height: 400px;
-
 }
+
 
 #fotoperfil {
 
