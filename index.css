@@ -651,6 +651,7 @@ button {
 .datos {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     border: 1px solid black;
     border-radius: 5px;
     padding: 10px;
@@ -688,7 +689,7 @@ h3 {
     padding: 20px;
 }
 
-.datos {
+.datosAceptados {
     display: flex;
     width: 95%;
     align-items: center;
@@ -725,7 +726,11 @@ p{
     font-weight: bold;
 }
 
-hr {
+
+.vertical-line {
+
+    border-left: 1px solid #000;
+    height: 60px;
     display: block;
     unicode-bidi: isolate;
     margin-block-start: 0.5em;
@@ -735,12 +740,6 @@ hr {
     overflow: hidden;
     border-style: inset;
     border-width: 1px;
-}
-
-.vertical-line {
-
-    border-left: 1px solid #000;
-    height: 60px;
 
 }
 
@@ -809,24 +808,30 @@ li {
     padding: 20px;
 }
 
-.datos {
+.datosUsuario {
     margin-bottom: 10px;
 }
 
 .requisitos {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-between;
     margin-top: 20px;
     margin-bottom: 20px;
 
 }
 
-label {
+.requisitosParticipante{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.requisitosParticipante label {
     font-weight: bold;
 }
 
-input {
+.requisitosParticipante input {
     margin-bottom: 10px;
     border-radius: 10px;
     border: 1px solid black;
@@ -853,6 +858,11 @@ input {
 
 .descripcion {
     margin-bottom: 10px;
+}
+
+.descripcion textarea{
+    max-width: 800px;
+    max-height: 200px;
 }
 
 .funciones {
