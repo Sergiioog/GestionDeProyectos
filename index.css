@@ -720,7 +720,8 @@ h3 {
 
 
 /*--------------Publicar Proyecto Gonzalo------------------*/
-p {
+
+p{
     font-weight: bold;
 }
 
@@ -740,20 +741,19 @@ hr {
 
     border-left: 1px solid #000;
     height: 60px;
-    margin: 10px;
 
 }
 
-.btnUsuario {
-    border-radius: 5px;
-    border: 1px solid white;
+.btnUsuario{
+    border-radius:5px;
+    border:1px solid white;
 }
 
 .btnpublicar {
     width: 20%;
-    background-color: #005FAC;
+    background-color:#005FAC;
     color: #F6F6F6;
-    border: 1px solid black;
+    border:1px solid black;
     border-radius: 5px;
 }
 
@@ -862,7 +862,7 @@ input {
     margin: 20px;
 }
 
-.publicar {
+.publicar{
     display: flex;
     justify-content: center;
     align-items: center;
