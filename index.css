@@ -425,7 +425,7 @@ main {
     justify-content: center;
     align-items: center;
     border: 2px solid rgb(47, 173, 246);
-
+    text-decoration: none;
 }
 .btnLenguaje p {
     color: #005FAC;
@@ -462,6 +462,7 @@ main {
     justify-content: center;
     align-items: start;
     flex-direction: column;
+    margin-top: 20px;
 }
 
 .funcion {
@@ -472,7 +473,10 @@ main {
     border: 2px solid #0c7bd7;
     border-radius: 10px;
     margin-top: 20px;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .funcion ul {
     height: 100%;
@@ -510,6 +514,42 @@ main {
     justify-content: end;
     align-items: center;
 }
+#linkGuardar {
+    height: 50px;
+    width: 50px;
+}
+#linkGuardar  img {
+    max-width: 100%;
+}
+.funcionEnProyecto h2 {
+    margin-top: 30px;
+    color: #005FAC;
+    font-size: 18px;
+}
+.funcionEnProyecto {
+    width: 100%;
+    height: auto;
+}
+#participacion {
+    width: 30%;
+    padding-right: 40px;
+}
+#participacion ul {
+    width:200px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}
+#participacion ul li {
+    width:100%;
+    text-align: center;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    
+}
+
 /*----------VER PROYECTOS SERGIO------------*/
 
 
