@@ -151,6 +151,11 @@ header {
 .secciones li {
     margin-right: 40px;
     font-size: 18px;
+    transition: transform 0.2s;
+    
+}
+.secciones li:hover{
+    transform: scale(1.1);
 }
 .secciones li a {
     text-decoration: none;
@@ -196,6 +201,7 @@ main {
 } 
 #bodyuser{
     overflow-x: hidden;
+    background-color: rgb(220, 229, 229);
 }
 .filtrosDiv {
     background-color: #E8E7E7;
@@ -224,7 +230,8 @@ main {
     width: 70%;
     border-radius: 10px;
     padding: 1%;
-    margin-bottom: 20px;
+    margin-bottom: 3%;
+
 }
 .filtrosOrden {
     display: flex;
@@ -284,21 +291,30 @@ main {
 
     margin-left: 20%;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
+    margin-right: 10%;
 }
 
 #textoperfil {
 
 
+    height: 50%;
     margin-right: 20%;
-    background-color: aliceblue;
+    background-color: rgba(240, 248, 255, 0.76);
     border-radius: 15px;
+    padding: 1%;
+    
 
 
 }
 
+
 #nombreuser {
+    width: 100%;
+    margin-left: 50%;
+    margin-top: 10%;
     text-align: center;
     background-color: aliceblue;
     border-radius: 15px;
@@ -350,6 +366,10 @@ h3 {
 #tituloproyectos {
     width: 70%;
     align-items: flex-start;
+    font-size: 1.4rem;
+    margin-bottom: 2%;
+    text-decoration: underline;
+    color: #005FAC;
 }
 
 /* fin estilos tarjetas */
@@ -387,7 +407,7 @@ nav a {
 }
 
 .homepalabra {
-
+    text-decoration: none;
     color: #005FAC;
     font-weight: bold;
 }
@@ -398,11 +418,19 @@ nav a {
     background-color: #005FAC;
     border-radius: 10px;
     border: 0;
+    font-size: 1rem;
+    transition: transform 0.2s;
+    
+}
+.botonhomeuser2:hover{
+    
+    transform: scale(1.1);
 }
 
 .homepalabra2 {
     color: #ffffff;
     font-weight: bold;
+    text-decoration: none;
 }
 #contenedorbotonesinfo{
     display: flex;
@@ -412,6 +440,101 @@ nav a {
     width: 100%;
     gap: 2%;
 }
+#headeruser {
+    
+    height: 10vh;
+    width: 100vw;
+    background-color: #005FAC;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+#seccaionheaderuser{
+    margin-top: 1.5%;
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#tituloinfouser{
+    margin-bottom: 1%;
+    font-size: 1.5rem;
+}
+#conocimientosuser li {
+    margin-bottom: 10px; /* Ajusta el valor según la cantidad de espacio que desees entre cada elemento */
+}
+#footerusuario{
+  
+        background-color: #005FAC   ;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        width: 100%;
+        
+    
+}
+@media screen and (max-width: 779px) {
+    #textoperfil{
+        overflow-x: auto;
+        &::-webkit-scrollbar {
+            width: 8px;
+           
+            
+        }
+    
+        &::-webkit-scrollbar-thumb {
+            
+            background-color: #005FAC; 
+            border-radius: 5px;
+        }
+    
+        &::-webkit-scrollbar-track {
+            background-color: rgba(211, 211, 211, 0); /* Color del track (la parte fija) */
+        }
+    }
+}
+@media screen and (max-width: 1120px) {
+    #bannerinicio {
+        flex-direction: column;
+       
+    }
+    #textoperfil{
+
+        height: 40%;
+        width: 70%;
+        margin-left: 20%;
+
+    }
+    #circulo2{
+        width: 80px;
+    height: 80px;
+    
+    }
+    #contenedorPerfilfoto{
+        margin-left: 0%;
+        margin-right: 15%;
+        margin-top: 1%;
+
+    }
+    #tituloinfouser {
+        font-size: 1em; 
+    }
+
+    #textoperfil p {
+        font-size: 1em; 
+    }
+}
+
+/* Estilos para tablet */
+@media screen and (min-width: 1121px) and (max-width: 1131) {
+    #bannerinicio {
+        flex-direction: row;
+        
+    }
+}
+
+/* Estilos para PC */
 
 
 /*----------USARIOS ALEX------------*/
@@ -423,13 +546,14 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 #crearuser {
     border-radius: 8px;
     margin-top: 3%;
    margin-bottom: 5%;
-    width: 45%;
+    width: 55%;
     height: 80%;
     border: 2px solid #005FAC;
     display: flex;
@@ -441,6 +565,7 @@ nav a {
     margin-top: 3%;
     margin-left: 3%;
     color: #005FAC;
+    text-decoration: underline;
 }
 
 .titulocrearuser{
@@ -464,6 +589,24 @@ nav a {
     align-items: center;
     justify-content: center;
     margin-bottom: 3%;
+}
+#circulo2 {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 2px solid #005FAC;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
+#circulo2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 50%; 
 }
 #formulariocrearuser{
 
@@ -501,8 +644,14 @@ label {
     margin-bottom: 2%;
    
   }
-  
-/* --------------- CREAR USUARIO ALEX ---------------- */
+  #textocrearuseraa{
+    margin-left: 3%;
+    font-size: 20px;
+  }
+  #titulocrearuser{
+    font-size: 60px;
+  }
+/* --------------- FIN CREAR USUARIO ALEX ---------------- */
 /*  -------------- CONECTA CONMIGO USUARIO ALEX ---------*/
 #contenedorconetaruser{
 
@@ -531,4 +680,18 @@ label {
     margin-bottom: 8%;
     
 }
-/* --------------- CONECTA CONMIGO USUARIO ALEX --------- */
+#crearuserbody{
+    overflow-x: hidden;
+    background-color: rgb(229, 229, 229);
+}
+/* ---------------FIN  CONECTA CONMIGO USUARIO ALEX --------- */
+/* INICIO USUARIO AL NO ESTAR REGISTRADO ALEX --NO PISAR */
+
+#bodyinicionouser{
+    overflow-x: hidden;
+}
+
+
+
+
+/* FIN USUARIO AL NO ESTAR REGISTRADO ALEX --NO PISAR */

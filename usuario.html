@@ -8,8 +8,8 @@
 </head>
 
 <body id="bodyuser">
-    <header>
-        <section class="seccion1">
+    <header id="headeruser">
+        <section id="seccaionheaderuser" class="seccion1">
             <figure class="figureFotoUtad">
                 <img src="assets/imagenes/logoU.png" alt="logo Utad">
             </figure>
@@ -21,17 +21,15 @@
                 <li><button><a href="index.html">Inicio</a></button></li>
             </ul>
         </section>
-        <section class="seccion2">
-            <div class="buscadorDiv">
-                <p>Hola</p>
-            </div>
-        </section>
+        
     </header>
     <div id="bannerinicio">
 
         <div id="contenedorPerfilfoto">
             <div id="fotoperfil">
-                <img src="assets/imagenes/usuarioLogo.png" alt="Logo del usuario">
+                <div id="circulo2" class="circulo">
+                    <img  src="assets/imagenes/carolina.jpg" alt="">
+                </div>
                 <div id="nombreuser">
                     <p>Carolina32</p>
                 </div>
@@ -40,17 +38,19 @@
         </div>
         <div id="textoperfil">
 
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime id <br>
-                consectetur eveniet,reprehenderit accusantium facere ducimus doloremque, <br>
-                dolor aut optio totam cumque, minus laboriosam assumenda fugit necessitatibus <br>
-                veritatis corporis perspiciatis.</p>
+            <h1 id="tituloinfouser">Desarolladora Web - Full Stack</h1>
+            <p>Soy Carolina, una apasionada programadora con un enfoque en soluciones 
+                innovadoras y código eficiente. Me encanta compartir conocimientos y 
+                ayudar a otros a explorar el emocionante mundo del desarrollo web. 
+                Mi experiencia abarca desde el desarrollo del lado del cliente con 
+                tecnologías como HTML, CSS y JavaScript</p>
         </div>
     </div>
 
     <div id="informacionpersonal">
         <div id="contenidoinfo">
-            <h3>Informacion Personal : </h3>
-            <ul>
+            <h3 id="titiloinfoper">Informacion Personal : </h3>
+            <ul id="conocimientosuser">
                 <li><strong>Nombre :</strong> Carolina Garcia López</li>
                 <li><strong>Correo Electronico :</strong> Carolina32@live.utad.com</li>
                 <li><strong>Estudios :</strong> CFGS Desarrollo Web DAWE </li>
@@ -59,7 +59,7 @@
             </ul>
         </div>
         <div id="contenedorbotonesinfo">
-            <button class="botonhomeuser2"><a class="homepalabra2" href="crear_usuario.html">Editar Usuario</a></button>
+            <button class="botonhomeuser2"><a class="homepalabra2" href="crear_usuario.html">Editar </a></button>
             <button class="botonhomeuser2"><a class="homepalabra2" href="conecta_conmigo_usuario.html">Contactame</a></button>
 
         </div>
@@ -79,7 +79,19 @@
             <p>JavaScript | Html | Css | Angular</p>
             <a href="">Mas Informacion</a>
 
+    
+        </div><div class="tarjeta">
+            <h3>Desarrollar Aplicacion Web(Gestion de proyectos)</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos excepturi dicta modi? Sed dignissimos <br>
+                nihil voluptas aliquam voluptatum eveniet officiis laboriosam excepturi? Consectetur optio veritatis,
+                <br>
+                tempora fuga quod earum blanditiis.
+            </p>
+            <p>JavaScript | Html | Css | Angular</p>
+            <a href="">Mas Informacin</a>
+
         </div>
+
         <div id="tituloproyectos">
             <h3>Proyectos en Desarollo : </h3>
         </div>
@@ -95,5 +107,9 @@
 
         </div>
     </div>
+
+    <footer id="footerusuario">
+        <p>&copy; 2024 UTAD Gestion de proyectos. Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>
