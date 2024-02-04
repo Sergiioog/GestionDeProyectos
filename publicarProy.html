@@ -10,12 +10,12 @@
     <link rel="stylesheet" href="publicarProyectos.css">
     <link rel="icon" href="assets/iconos/utadazul.png" type="image/x-icon">
 
-    
+
 
 </head>
 
 <body>
-    <header class="headerSinBarra" >
+    <header class="headerSinBarra">
         <section class="seccion1">
             <figure class="figureFotoUtad">
                 <img src="assets/imagenes/logoU.png" alt="logo Utad">
@@ -36,79 +36,136 @@
 
 
     <section class="editar">
+
+
         <div class="proyectosMasPopulares">
             <div id="contenedorusercrear" style="margin-bottom: 20px;">
                 <h2 style="margin-left: 15px;">¡Publica tu proyecto!</h2>
             </div>
         </div>
 
-        <div class="card">
-
-            <input type="text" placeholder="Nombre proyecto...">
-            <div class="datosUsuario">
-
-                <p>U-tad (Edificio Madrid) - <span>Sergio Gacia Gordo</span></p>
-                <p>Presencial/Remoto - <span>4 inscritos</span></p>
-
-            </div>
-
-            <h3>REQUISITOS</h3>
-            <div class="requisitos">
-                
-                <div class="col1">
-                    <div class="requisitosParticipante">
-                        <label for="estudios">Estudios:</label>
-                        <input type="text" name="estudios">
-                    </div><br>
-                    <div class="requisitosParticipante">
-                        <label for="cursos">Curso recomendado:</label>
-                        <input type="text" name="cursos">
-                    </div><br>
-                    <div class="requisitosParticipante">
-                        <label for="idiomas">Idiomas:</label>
-                        <input type="text" name="idiomas">
-                    </div><br>
-                    <div class="requisitosParticipante">
-                        <label for="certificaciones">Certificaciones:</label>
-                        <input type="text" name="certificaciones">
+        <main class="pubProy">
+            <div id="verProyectoForm">
+                <div id="divForm1">
+                    <div id="datosForm1">
+                        <h1>ANIMADOR AFTER EFFECTS, DESARROLLADOR WEB Y DISEÑADOR GRÁFICO</h1>
+                        <button id="botonCerrar">X</button>
+                    </div>
+                    <div class="datosForm2">
+                        <div class="divLista">
+                            <li>U-Tad Edificio Madrid</li>
+                            <li>Presencial / Remoto</li>
+                        </div>
+                        <div class="divLista">
+                            <li>Sergio García Gordo</li>
+                            <li>4 inscritos</li>
+                        </div>
                     </div>
                 </div>
+                <div id="divForm2">
+                    <div class="divReqCon">
+                        <h2>REQUISITOS</h2>
+                        <div class="divLista">
 
-                <div class="col2">
-                    <p>Conocimientos necesarios:</p>
-                    <span>Java</span><span>Kotlin</span><span>PHP</span>
+                            <li>Estudios:
+                                <input type="text" class="inputRequisitos">
+                            </li>
+                            <li>Curso recomendado:
+                                <input type="text" class="inputRequisitos">
+                            </li>
+                            <li>Idiomas:
+                                <input type="text" class="inputRequisitos">
+                            </li>
+                            <li>Certificaciones:
+                                <input type="text" class="inputRequisitos">
+                            </li>
+                        </div>
+                    </div>
+                    <div class="divReqCon">
+                        <h2>CONOCIMIENTOS NECESARIOS:</h2>
+                        <div class="divListaLeng">
+                            <div class="btnLenguaje">
+                                <p>Java</p>
+                            </div>
+                            <div class="btnLenguaje">
+                                <p>Kotlin</p>
+                            </div>
+                            <div class="btnLenguaje">
+                                <p>PHP</p>
+                            </div>
+                            <div class="btnLenguaje">
+                                <p>MySQL</p>
+                            </div>
+                            <div class="btnLenguaje">
+                                <p>Swift</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                <div id="descripcion">
+                    <h2>DESCRIPCIÓN</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel cum illum voluptatibus? Accusantium
+                        in dolorum aspernatur at? Officia culpa pariatur atque blanditiis hic recusandae, dolores
+                        veritatis placeat nulla ullam facere.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae dolores cum, voluptates, optio
+                        repellat tempore tempora, dicta labore laboriosam possimus ad saepe culpa eius accusamus soluta.
+                        Dolorum facilis sunt nobis?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, magnam officiis rem aut odit,
+                        voluptate consequuntur aliquid, cupiditate totam ipsa dolores cumque laboriosam blanditiis
+                        inventore quibusdam. Harum et accusamus voluptates.
+                    </p>
+                </div>
+                <div id="funciones">
+                    <h2>TUS FUNCIONES</h2>
+                    <div id="func">
+                        <div class="funcionesInscritos">
+                            <div class="funcion">
+                                <h3>Desarrollador Web</h3>
+                                <ul>
+                                    <li>Administrar BBDD</li>
+                                    <li>Desarrollo Front-End</li>
+                                    <li>Creación de la API</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="funcionesInscritos">
+                            <div class="funcion">
+                                <h3>Animador</h3>
+                                <ul>
+                                    <li>Animar la página</li>
+                                    <li>Crear anuncios</li>
+                                    <li>Creación de la API</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="funcionesInscritos">
+                            <div class="funcion">
+                                <h3>Diseñador Gráfico</h3>
+                                <ul>
+                                    <li>imagenes</li>
+                                    <li>Videos</li>
+                                    <li>Branding</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div id="inscribirme">
+                    <a href="guardarProy.html" id="linkGuardar">
+                        <img src="assets/iconos/save.svg" alt="Save">
+                    </a>
+                    <a href="mis_proyectosreg.html" class="btnLenguaje">
+                        Inscribirme
+                    </a>
+                </div>
+
             </div>
 
-            <div class="descripcion">
-                <h3>DESCRIPCIÓN</h3>
-                <textarea name="descripcion" cols="95
-                " rows="5"></textarea>
-            </div>
-            <h3>TUS FUNCIONES</h3>
-            <div class="funciones">
-                
-                <div>
-                    <p>Desarrollador web:</p>
-                    <input type="text">
-                </div>
-                <hr class="vertical-line">
-                <div>
-                    <p>Maquetador web:</p>
-                    <input type="text">
-                </div>
-                <hr class="vertical-line">
-                <div>
-                    <p>Diseñador web:</p>
-                    <input type="text">
-                </div>
-            </div>
+        </main>
 
-            <div class="publicar">
-                <button class="btnpublicar">Publicar</button>
-            </div>
-
-        </div>
     </section>
 
 </body>
