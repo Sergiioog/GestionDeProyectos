@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
     <link rel="stylesheet" href="index.css">
-    <link rel="icon" href="assets/imagenes/logoU.png" type="image/x-icon">
+    <link rel="icon" href="assets/iconos/utadazul.png" type="image/x-icon">
+
 </head>
 <body>
     <header>
@@ -27,6 +28,7 @@
                 <input id="busqueda" type="search" placeholder="Buscar proyectos U-TAD" aria-label="Search">
                 <button id="search" class="btn btn-outline-success" type="submit">Search</button>
             </form>
+            
         </section>
     </header>
     <main id="mainIndex">
@@ -37,14 +39,26 @@
         </div>
         <div class="contenedorFiltroTarjetas">
             <div class="filtrosDiv">
-                <h2>ORDENAR OFERTAS</h2>
+                <div class="tit">
+                    <h3>ORDENAR OFERTAS</h3>
+                </div>
                 <div class="filtrosOrden">
                     <p>Fecha</p>
                     <input type="date" id="nombre" name="nombre">
                 </div>
                 <div class="filtrosOrden">
                     <p>Relevancia</p>
-                    <input type="date" id="relevancia" name="nombre">
+                    <select id="relevancia" name="nombre">
+                        <option value="opcion1">Más Reciente</option>
+                        <option value="opcion2">Más Antiguo</option>
+                        <option value="opcion3">Más Popular</option>
+                        <option value="opcion4">Menos Popular</option>
+                    </select>
+                </div>
+                <div class="filtrosOrden" id="filt">
+                    <a href="/" class="btnLenguaje">
+                        Filtrar
+                    </a>
                 </div>
                 
             </div>
