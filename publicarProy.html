@@ -34,29 +34,27 @@
 
 
     <section class="editar">
-
-
-
-
+  
         <main class="pubProy">
             <div class="proyectosMasPopulares">
-                <div id="contenedorusercrear">
+                <div id="contenedorusercrear" style="margin-bottom: 20px;">
                     <h2 style="margin-left: 15px;">¡Publica tu proyecto!</h2>
                 </div>
             </div>
+           
             <div id="verProyectoForm">
                 <div id="divForm1">
                     <div id="datosForm1">
-                        <h1>ANIMADOR AFTER EFFECTS, DESARROLLADOR WEB Y DISEÑADOR GRÁFICO</h1>
+                        <input type="text" class="inputNomProy" placeholder="Nombre del proyecto...">
                         <button id="botonCerrar">X</button>
                     </div>
                     <div class="datosForm2">
-                        <div class="divLista">
-                            <li>Input aqui con placeholder:U-Tad Edificio Madrid</li>
-                            <li>Input aqui con placeholder: Disposicion</li>
+                        <div class="divLista" id="divLista1">
+                            <input type="text" class="inputRequisitos" placeholder="U-Tad Edificio Madrid">
+                            <input type="text" class="inputRequisitos" placeholder="Disposicion">
                         </div>
-                        <div class="divLista">
-                            <li>Input aqui con placeholder: Introduce tu nombre</li>
+                        <div class="divLista" id="divLista2" >
+                            <input type="text" class="inputRequisitos" placeholder="Introduce tu nombre">
                             <li>0 inscritos</li>
                         </div>
                     </div>
@@ -83,67 +81,58 @@
                     <div class="divReqCon">
                         <h2>CONOCIMIENTOS NECESARIOS:</h2>
                         <div class="divListaLeng">
-                            <div class="btnLenguaje">
-                                <p>Input aqui</p>
+                            <div>
+                                <input type="text" id="inputConoc">
                             </div>
-                            <div class="btnLenguaje">
-                                <p>Input aqui</p>
+                            <div >
+                                <input type="text" id="inputConoc">
                             </div>
-                            <div class="btnLenguaje">
-                                <p>Input aqui</p>
+                            <div>
+                                <input type="text" id="inputConoc">
                             </div>
-                            <div class="btnLenguaje">
-                                <p>Input aqui</p>
+                            <div>
+                                <input type="text" id="inputConoc">
                             </div>
-                            <div class="btnLenguaje">
-                                <p>Input aqui</p>
+                            <div>
+                                <input type="text" id="inputConoc">
                             </div>
                         </div>
                     </div>
                 </div>
                 <div id="descripcion">
                     <h2>DESCRIPCIÓN</h2>
-                    <p>Input aqui Input aqui Input aqui Input aquiLorem ipsum dolor sit, amet consectetur adipisicing elit. Vel cum illum voluptatibus? Accusantium
-                        in dolorum aspernatur at? Officia culpa pariatur atque blanditiis hic recusandae, dolores
-                        veritatis placeat nulla ullam facere.
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae dolores cum, voluptates, optio
-                        repellat tempore tempora, dicta labore laboriosam possimus ad saepe culpa eius accusamus soluta.
-                        Dolorum facilis sunt nobis?
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, magnam officiis rem aut odit,
-                        voluptate consequuntur aliquid, cupiditate totam ipsa dolores cumque laboriosam blanditiis
-                        inventore quibusdam. Harum et accusamus voluptates.
-                    </p>
+                    <textarea name="descripcion" id="desc" style="width: 800px; max-width: 800px;max-height: 200px;"></textarea>
                 </div>
                 <div id="funciones">
                     <h2>TUS FUNCIONES</h2>
                     <div id="func">
                         <div class="funcionesInscritos">
                             <div class="funcion">
-                                <h3>Input aqui</h3>
+                                <input type="text" id="inputFunciones">
                                 <ul>
-                                    <li>Input aqui</li>
-                                    <li>Input aqui</li>
-                                    <li>Input aqui</li>
+                                    <input type="text" id="inputFunciones" placeholder="Función 1">
+                                    <input type="text" id="inputFunciones"   placeholder="Función 2">
+                                    <input type="text" id="inputFunciones"  placeholder="Función 3">
                                 </ul>
                             </div>
                         </div>
                         <div class="funcionesInscritos">
                             <div class="funcion">
-                                <h3>Input aqui</h3>
+                                <input type="text" id="inputFunciones">
                                 <ul>
-                                    <li>Input aqui</li>
-                                    <li>Input aqui</li>
-                                    <li>Input aqui</li>
+                                    <input type="text" id="inputFunciones"  placeholder="Función 1">
+                                    <input type="text" id="inputFunciones" placeholder="Función 2">
+                                    <input type="text" id="inputFunciones"  placeholder="Función 3">
                                 </ul>
                             </div>
                         </div>
                         <div class="funcionesInscritos">
                             <div class="funcion">
-                                <h3>Input aqui</h3>
+                                <input type="text" id="inputFunciones" style="padding: 0;width: 100px;margin: 0%;">
                                 <ul>
-                                    <li>Input aqui</li>
-                                    <li>Input aqui</li>
-                                    <li>Input aqui</li>
+                                    <input type="text" id="inputFunciones"  placeholder="Función 1">
+                                    <input type="text" id="inputFunciones" placeholder="Función 2">
+                                    <input type="text" id="inputFunciones"  placeholder="Función 3">
                                 </ul>
                             </div>
                         </div>
@@ -153,7 +142,6 @@
                 </div>
 
                 <div id="inscribirme">
-                 
                     <a href="mis_proyectosreg.html" class="btnLenguaje">
                         Publicar
                     </a>

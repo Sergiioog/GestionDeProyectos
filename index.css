@@ -1255,7 +1255,7 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 1px solid black;
+    border: 3px solid #005FAC;
     border-radius: 10px;
     padding: 20px;
 }
@@ -1264,7 +1264,7 @@ h3 {
     display: flex;
     width: 95%;
     align-items: center;
-    border: 1px solid black;
+    border: 1px solid #005FAC;
     border-radius: 5px;
     margin: 10px;
     background-color: #D9D9D9;
@@ -1289,6 +1289,13 @@ h3 {
     border: 1px solid black;
     border-radius: 5px;
 }
+
+#pageParticipantes {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+
 /*--------------------Chat Gonzalo-------------------------------*/
 #divChat {
     width: 100%;
@@ -1304,6 +1311,16 @@ h3 {
 }
 /*--------------------Chat Gonzalo-------------------------------*/
 /*--------------Publicar Proyecto Gonzalo------------------*/
+#divLista1{
+    display: flex;
+    flex-direction: column; 
+    margin-right: 50px;
+}
+
+#divLista2{
+    display: flex;
+    flex-direction: column;
+}
 
 .pubProy{
     width: 100vw;
@@ -1311,4 +1328,21 @@ h3 {
 .inputRequisitos{
     padding: 0%;
     width: 150px;
+}
+.inputNomProy{
+    padding: 0%;
+    width: 800px;
+    padding: 5px;
+}
+
+#inputConoc{
+    padding: 0;
+    width: 100px; 
+    margin: 5px;
+}
+
+#inputFunciones{
+    padding: 0;
+    width: 100px;
+    margin: 0%;
 }
