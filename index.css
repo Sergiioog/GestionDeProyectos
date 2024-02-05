@@ -626,45 +626,56 @@ main {
 #fotoperfil {
 
     width: 100%;
-    max-width: 100px;
-    margin: 0 auto;
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 #fotoperfil img {
     width: 100%;
     height: auto;
+    margin:auto;
     max-width: 100%;
 }
 
 #contenedorPerfilfoto {
 
+    width: 100%;
+    height: auto;
     margin-left: 20%;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    
     flex-direction: column;
-    margin-right: 10%;
+    margin-right: 10px;
 }
 
 #textoperfil {
 
-
-    height: 50%;
+    height: 60%;
     margin-right: 20%;
     background-color: rgba(240, 248, 255, 0.76);
     border-radius: 15px;
     padding: 1%;
     
-
-
+}
+#textocarolina{
+    font-size: 19px;
 }
 
 
 #nombreuser {
-    width: 100%;
-    margin-left: 50%;
-    margin-top: 10%;
+    font-weight: bold;
+    width: 160px;
+
+    font-size: 18px;
+margin-top: 10px;
     text-align: center;
+    padding: 3px;
     background-color: aliceblue;
     border-radius: 15px;
 }
@@ -689,12 +700,16 @@ h3 {
 /* Estilos para el contenedor de proyectos */
 
 #proyectossubidoscontenedor {
-    display: flex;
+     max-width: 90%;
     font-size: 20px;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 3%;
+    margin: auto;
+    margin-top:40px ;
+
+    
     font-size: 18px;
+
+
+
 }
 
 /* fin estilos proyectos */
@@ -711,14 +726,18 @@ h3 {
     border-radius: 10px;
     padding: 1%;
 } */
-
+#tarjetauser{
+    max-width: 100%;
+    
+}
 #tituloproyectos {
     width: 70%;
-    align-items: flex-start;
     font-size: 1.4rem;
     margin-bottom: 2%;
-    text-decoration: underline;
-    color: #005FAC;
+        color: #005FAC;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 /* fin estilos tarjetas */
@@ -784,11 +803,12 @@ nav a {
 }
 
 #contenedorbotonesinfo {
+    margin-top: 10px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-end;
+    justify-content: flex-end;
     flex-direction: row;
-    width: 100%;
+    width: 37%;
     gap: 2%;
 }
 #headeruser {
@@ -816,6 +836,9 @@ nav a {
 }
 #conocimientosuser li {
     margin-bottom: 10px; /* Ajusta el valor según la cantidad de espacio que desees entre cada elemento */
+}
+#conocimientosuser{
+    font-size: 18px;
 }
 #footerusuario{
   
@@ -862,6 +885,7 @@ nav a {
     #circulo2{
         width: 80px;
     height: 80px;
+    align-self: center;
     
     }
     #contenedorPerfilfoto{
@@ -889,6 +913,16 @@ nav a {
 
 /* Estilos para PC */
 
+.hproyectouser{
+    margin-left: 0; 
+    
+    align-self: start;
+    max-width: 100%;
+    width: 100%;
+
+
+
+}
 
 /*----------USARIOS ALEX------------*/
 
@@ -917,16 +951,17 @@ nav a {
 
 .titilo {
     margin-top: 3%;
-    margin-left: 3%;
+    margin-left: 435px;
     color: #005FAC;
-    text-decoration: underline;
+    
 }
 
 .titulocrearuser {
     color: #005FAC;
-    font-size: 1rem;
+    font-size: 22px;
+    
     margin: 2%;
-    margin-left: 3%;
+    margin-left: 10%;
 }
 
 #contenedorusercrear {
@@ -940,8 +975,7 @@ nav a {
     border-radius: 50%;
     border: 2px solid #005FAC;
     background-color: rgba(0, 0, 255, 0);
-    /* Puedes ajustar el color de fondo según tus preferencias */
-    margin-left: 10%;
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -968,7 +1002,6 @@ nav a {
 #formulariocrearuser{
 
     text-align: center;
-
 }
 
 label {
@@ -1002,8 +1035,8 @@ textarea {
     background-color: #005FAC;
     color: #fff;
     border-radius: 10px;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin-top: 3%;
+    margin-bottom: 4%;
    
   }
   #textocrearuseraa{
@@ -1014,11 +1047,12 @@ textarea {
     font-size: 60px;
   }
 /* --------------- FIN CREAR USUARIO ALEX ---------------- */
+
 /*  -------------- CONECTA CONMIGO USUARIO ALEX ---------*/
 #contenedorconetaruser {
 
     width: 100%;
-    margin-top: 5%;
+    margin-top: 1%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1028,7 +1062,7 @@ textarea {
     border-radius: 8px;
     margin-top: 3%;
 
-    width: 45%;
+    width: 46%;
     height: 80%;
     border: 2px solid #005FAC;
     display: flex;
@@ -1040,13 +1074,57 @@ textarea {
 #titulocontactaser {
     color: #005FAC;
     text-align: center;
-    font-size: 1.5rem;
-    margin-bottom: 8%;
+    font-size: 28px;
+    margin-bottom: 30px;
+    margin-top: 30px;
 
 }
-
+#circulocrea{
+    margin-left: 10%;
+}
+#crearuserbody{
+    overflow-x: hidden;
+}
 /* --------------- CONECTA CONMIGO USUARIO ALEX --------- */
+/* Iniciar Sesion alex*/
+.contenedor-botones {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
 
+.boton-enviar {
+    margin: 0 20px;
+    background-color: #005FAC;
+    color: #ffffff; 
+}
+#conetaruser2 {
+    border-radius: 8px;
+    margin-top: 3%;
+
+    width: 50%;
+    height: 90%;
+    border: 2px solid #005FAC;
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgba(128, 128, 128, 0.147);
+}
+#contenedorconetaruser2 {
+
+    height: 550px;
+    width: 100%;
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* fin iniciar sesion alex */
 
 /*------------Guardar Proyectos  Gonzalo---------------*/
 
