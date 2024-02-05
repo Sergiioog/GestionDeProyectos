@@ -951,7 +951,13 @@ nav a {
 
 .titilo {
     margin-top: 3%;
-    margin-left: 435px;
+    margin-left: 358px;
+    color: #005FAC;
+    
+}
+.titilo2 {
+    margin-top: 3%;
+    margin-left: 430px;
     color: #005FAC;
     
 }
@@ -962,6 +968,13 @@ nav a {
     
     margin: 2%;
     margin-left: 10%;
+}
+.titulocrearuser2 {
+    color: #005FAC;
+    font-size: 22px;
+    
+    margin: 2%;
+   
 }
 
 #contenedorusercrear {
