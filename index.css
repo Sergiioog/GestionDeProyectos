@@ -853,13 +853,11 @@ nav a {
 #crearuser {
     border-radius: 8px;
     margin-top: 3%;
-<<<<<<< HEAD
+
     margin-bottom: 5%;
     width: 45%;
-=======
    margin-bottom: 5%;
     width: 55%;
->>>>>>> 891be73f2ded530f90b95d14b22dbcbdeae641ee
     height: 80%;
     border: 2px solid #005FAC;
     display: flex;
@@ -893,17 +891,16 @@ nav a {
     border-radius: 50%;
     border: 2px solid #005FAC;
     background-color: rgba(0, 0, 255, 0);
-    /* Puedes ajustar el color de fondo según tus preferencias */
+    
     margin-left: 10%;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 3%;
 }
-<<<<<<< HEAD
 
 #formulariocrearuser {
-=======
+
 #circulo2 {
     width: 180px;
     height: 180px;
@@ -923,10 +920,7 @@ nav a {
     border-radius: 50%; 
 }
 #formulariocrearuser{
->>>>>>> 891be73f2ded530f90b95d14b22dbcbdeae641ee
-
     text-align: center;
-
 }
 
 label {
@@ -962,12 +956,12 @@ textarea {
     border-radius: 10px;
     margin-top: 2%;
     margin-bottom: 2%;
-<<<<<<< HEAD
+
 
 }
 
 /* --------------- CREAR USUARIO ALEX ---------------- */
-=======
+
    
   }
   #textocrearuseraa{
@@ -978,7 +972,7 @@ textarea {
     font-size: 60px;
   }
 /* --------------- FIN CREAR USUARIO ALEX ---------------- */
->>>>>>> 891be73f2ded530f90b95d14b22dbcbdeae641ee
+
 /*  -------------- CONECTA CONMIGO USUARIO ALEX ---------*/
 #contenedorconetaruser {
 
@@ -1324,8 +1318,7 @@ li {
     justify-content: center;
     align-items: center;
 }
-<<<<<<< HEAD
-=======
+
 #crearuserbody{
     overflow-x: hidden;
     background-color: rgb(229, 229, 229);
@@ -1341,4 +1334,4 @@ li {
 
 
 /* FIN USUARIO AL NO ESTAR REGISTRADO ALEX --NO PISAR */
->>>>>>> 891be73f2ded530f90b95d14b22dbcbdeae641ee
+
