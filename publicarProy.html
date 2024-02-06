@@ -45,9 +45,10 @@
            
             <div id="verProyectoForm">
                 <div id="divForm1">
-                    <div id="datosForm1">
-                        <input type="text" class="inputNomProy" placeholder="Nombre del proyecto...">
-                        <button id="botonCerrarProyecto">X</button>
+                    <div id="datosForm1" style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+                        <input type="text" class="inputNomProy" placeholder="Nombre del proyecto" style="  font-size: 18px;
+                        height: 40px; width: 600px;">
+                        <button id="botonCerrarProyecto" style="background-color: transparent; font-size: 40px; padding-left: 70px;">X</button>
                     </div>
                     <div class="datosForm2">
                         <div class="divLista" id="divLista1">
@@ -55,7 +56,7 @@
                             <input type="text" class="inputRequisitos" placeholder="Disposicion">
                         </div>
                         <div class="divLista" id="divLista2" >
-                            <input type="text" class="inputRequisitos" placeholder="Nombre">
+                            <input type="text" class="inputRequisitos" placeholder="Nombre del Usuario">
                             <li>0 inscritos</li>
                         </div>
                     </div>
@@ -102,7 +103,7 @@
                 </div>
                 <div id="descripcion">
                     <h2>DESCRIPCIÓN</h2>
-                    <textarea name="descripcion" id="desc" style="width: 800px; max-width: 800px; height: 250px; max-height: 400px;"></textarea>
+                    <textarea name="descripcion" placeholder="Introduce los detalles de tu proyecto" id="desc" style="width: 800px; max-width: 800px; height: 250px; max-height: 400px;"></textarea>
 
                 </div>
                 <div id="funciones">
