@@ -402,6 +402,7 @@ main {
 }
 #divForm1 h1 {
     color: #005FAC;
+    font-size: 24px;
 }
 #divForm2 h2 {
     color: #005FAC;
@@ -461,7 +462,8 @@ main {
     font-weight: bold;
 }
 .divReqCon {
-    min-height: 150px;
+    min-height: 280px;
+    height: 100%;
     width: 100%;
     display: flex;
     justify-content: start;
@@ -494,6 +496,7 @@ main {
     align-items: center;
     max-width: 80%;
     margin-top: 10px;
+    height: 100%;
 
 }
 #descripcion h2 {
@@ -523,7 +526,7 @@ main {
 .funcion {
     padding: 10px;
     width: 260px;
-    height: 200px;
+    height: 100%;
     max-height: 200px;
     background-color: rgb(212, 212, 212);
     border: 2px solid #0c7bd7;
@@ -1255,33 +1258,31 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border: 1px solid black;
     border: 3px solid #005FAC;
     border-radius: 10px;
     padding: 20px;
 }
-
 .datosAceptados {
     display: flex;
     width: 95%;
     align-items: center;
+    border: 1px solid black;
     border: 1px solid #005FAC;
     border-radius: 5px;
     margin: 10px;
     background-color: #D9D9D9;
     padding-left: 5px;
 }
-
 .a {
     display: flex;
     flex-direction: column;
     margin-left: 20px;
 }
-
 .continuar {
     display: flex;
     justify-content: flex-end;
 }
-
 .btnContinuar {
     width: 20%;
     background-color: #005FAC;
@@ -1289,7 +1290,6 @@ h3 {
     border: 1px solid black;
     border-radius: 5px;
 }
-
 #pageParticipantes {
     width: 50%;
     display: flex;
@@ -1311,15 +1311,6 @@ h3 {
 }
 /*--------------------Chat Gonzalo-------------------------------*/
 /*--------------Publicar Proyecto Gonzalo------------------*/
-#botonCerrarProyecto {
-    color: #000;
-    font-size: 40px;
-    background-color: transparent;
-    height: auto;
-    width: auto;
-    margin-left: 10px;
-}
-
 #divLista1{
     display: flex;
     flex-direction: column; 
@@ -1335,33 +1326,22 @@ h3 {
     width: 100vw;
 }
 .inputRequisitos{
-   padding: 3px;
-   width: 150px;
+    padding: 5px;
+    width: 200px;
+ 
 }
-
-.inputOtrosRequisitos{
-    padding: 3px;
-    width: 250px;
-}
-.inputNomProy{
+.inputNomProy {
     padding: 0%;
-    width: 900px;
+    width: 800px;
     padding: 5px;
 }
-
-#inputConoc{
-    padding: 0;
-    width: 100px; 
+.inputConoc{
+    padding: 5px;
+    width: 150px; 
     margin: 5px;
 }
+.inputFunciones {
+    padding: 15px;
+    height: 30px;
+}
 
-#inputTituloFunciones{
-    padding: 0;
-    width: 150px;
-    margin: 0%;
-}
-#inputFunciones{
-    padding: 3px;
-    width: 150px;
-    margin: 8px;
-}
